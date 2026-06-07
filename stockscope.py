@@ -17,7 +17,7 @@ st.set_page_config(
 
 st.title('Stock Scope')
 
-data=pd.read_csv(r'data\nifty.csv')
+data=pd.read_csv('nifty.csv')
 
 
 # In[3]:
