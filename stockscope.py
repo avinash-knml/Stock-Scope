@@ -16,6 +16,7 @@ st.set_page_config(
     layout="wide")
 
 st.title('Stock Scope')
+st.subheader('Intraday Screener by Avinash')
 
 data=pd.read_csv('nifty.csv')
 
