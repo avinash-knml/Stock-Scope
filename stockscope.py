@@ -74,5 +74,5 @@ for i in range(0, len(symbols), cols_per_row):
     for j, symbol in enumerate(symbols[i:i + cols_per_row]):
         with cols[j]:
             with st.container(border=True):
-                st.markdown(f"### {symbol}")
+                st.markdown(f"#### {symbol}")
                 
